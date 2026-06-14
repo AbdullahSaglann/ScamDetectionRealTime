@@ -16,7 +16,7 @@ This repository contains the Text-to-Speech (TTS) architecture and related Pytho
 
 ## Audio Dataset (19.4 GB)
 Due to GitHub's size limitations, the complete generated TTS audio dataset (19.4 GB of WAV files) is hosted externally on Google Drive. 
-*(Google Drive link to be added here once uploaded)*
+**[Download Audio Dataset (Google Drive)](https://drive.google.com/drive/folders/1SymchcT0u3mvM2OMDGi5SvF4EwzR34qp?usp=sharing)**
 
 ## Usage
 The scripts are designed to be integrated into a larger data generation pipeline or run independently.
