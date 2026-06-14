@@ -29,7 +29,12 @@ def merge_dialogues(input_dir, output_dir, pause_ms=500):
         sample_rate = None
         
         for i, f in enumerate(turn_files):
-            audio, sr = sf.read(f, dtype="float32")
+            try:
+                audio, sr = sf.read(f, dtype="float32")
+            except Exception as e:
+                print(f"Warning: Could not read {f} ({e}). Skipping row.")
+                combined_audio = []
+                break
             if sample_rate is None:
                 sample_rate = sr
             elif sample_rate != sr:
