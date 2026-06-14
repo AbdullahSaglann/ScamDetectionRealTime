@@ -1,0 +1,3 @@
+coqui-tts[codec]
+imageio-ffmpeg
+transformers<5

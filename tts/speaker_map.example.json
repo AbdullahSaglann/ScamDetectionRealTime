@@ -1,0 +1,16 @@
+{
+  "agent": {
+    "default": "data/reference_voice/agent.wav",
+    "pressuring": "data/reference_voice/agent_urgent.wav",
+    "threatening": "data/reference_voice/agent_threatening.wav",
+    "persuasive": "data/reference_voice/agent_persuasive.wav",
+    "friendly_pressure": "data/reference_voice/agent_friendly.wav",
+    "reassuring": "data/reference_voice/agent_calm.wav"
+  },
+  "victim": {
+    "default": "data/reference_voice/victim.wav",
+    "worried": "data/reference_voice/victim_worried.wav",
+    "cautious": "data/reference_voice/victim_cautious.wav",
+    "neutral": "data/reference_voice/victim.wav"
+  }
+}

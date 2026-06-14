@@ -1,0 +1,6 @@
+# Fish Speech TTS dependencies
+# Install: pip install -r scripts/tts/requirements-fish-speech.txt
+fish-speech
+soundfile
+numpy
+scipy

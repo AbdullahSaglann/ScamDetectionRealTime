@@ -1,0 +1,7 @@
+# Chatterbox (Resemble AI) TTS dependencies
+# Install: pip install -r scripts/tts/requirements-chatterbox.txt
+chatterbox-tts
+torchaudio
+soundfile
+numpy
+scipy
